@@ -152,7 +152,7 @@ header {
   display: inline-block;
   padding: 14px 140px;
   background-color: #5dca88;
-  border: none;
+  border: black 3px solid;
   border-radius: 3px;
   color: green;
   margin: 10px auto;

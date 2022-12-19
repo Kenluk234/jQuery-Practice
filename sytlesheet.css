@@ -152,9 +152,9 @@ header {
   display: inline-block;
   padding: 14px 140px;
   background-color: #5dca88;
-  border: black 3px solid;
+  border: none;
   border-radius: 3px;
-  color: green;
+  color: white;
   margin: 10px auto;
   cursor: pointer;
 }
@@ -217,4 +217,16 @@ footer p {
 
 footer {
   padding-top: 30px;
+}
+
+#signup-modal {
+  display: none;
+}
+
+#close-modal {
+  
+}
+
+.signup-show {
+  
 }

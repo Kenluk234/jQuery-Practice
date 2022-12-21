@@ -1,7 +1,7 @@
 $(".signup-show").click(function(){
-    $("#signup-modal").show();
+    $("#signup-form").show();
   });
 
 $("#close-modal").click(function(){
-    $("#signup-modal").hide();
+    $("#signup-form").hide();
   });

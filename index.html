@@ -2,6 +2,7 @@
 <html>
 <head>
 <link href="style.css" rel="stylesheet">
+  
   <meta charset="utf-8">
   <title>Progate</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -21,25 +22,21 @@
   </header>
 
   <!-- Start modal section -->
-  <div id="signup-modal"> 
-    <div class="signup-modal-wrapper">
+  
+    <div class="signup-modal-wrapper" id="signup-form">
       <div class="modal">
         <div>
-          <i class="fa fa-2x fa-times"></i>
+          <i class="fa fa-2x fa-times" id="close-modal"></i>
         </div>
-        <div id="signup-form">
           <h2>Sign up with Email</h2>
           <form action="#">
             <input class="form-control" type="text" placeholder="Email">
             <input class="form-control" type="password" placeholder="Password">
-            <div="signup-show">
-              <div id="submit-btn">Sign up</div>
-            </div>
+            <div id="submit-btn">Sign up</div>
           </form>
         </div>
       </div>
     </div>
-  </div>
   <!-- End of modal section -->
 
   <div class="top-wrapper">
@@ -47,10 +44,12 @@
       <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
       <p>Progate is a web service where you can learn programming online.<br>We offer you a fully equipped coding environment to get you started.</p>
       <!-- Signup button -->
-      <div class="btn signup">Sign up with Email</div>
-      <p>or</p>
-      <div class="btn facebook"><span class="fa fa-facebook"></span>Sign up with Facebook</div>
-      <div class="btn twitter"><span class="fa fa-twitter"></span>Sign up with Twitter</div>
+      <div class="signup-show">
+        <div class="btn signup">Sign up with Email</div>
+        <p>or</p>
+        <div class="btn facebook"><span class="fa fa-facebook"></span>Sign up with Facebook</div>
+        <div class="btn twitter"><span class="fa fa-twitter"></span>Sign up with Twitter</div>
+      </div>
     </div>
   </div>
   <div class="lesson-wrapper">

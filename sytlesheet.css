@@ -223,10 +223,13 @@ footer {
   display: none;
 }
 
-#close-modal {
-  
+.signup-show {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0px 7px #1a7940;
 }
 
-.signup-show {
-  
+#signup-form{
+  display: none;
 }
